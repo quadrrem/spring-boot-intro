@@ -1,0 +1,15 @@
+myconfig:
+  app-name: My Application Name
+  app-description: ${myconfig.app-name} is a Sprint Boot Application
+  admin-first-name: Remo
+  admin-last-name: Quadrelli
+  adminEmail: remo@mail.com
+
+
+environments:
+  development:
+    url: http://dev.bar.com
+    name: Dev Setup
+  production:
+      url: http://prod.bar.com
+      name: Prod Setup
